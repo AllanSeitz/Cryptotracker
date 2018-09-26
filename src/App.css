@@ -1,11 +1,26 @@
-.data {
+html {
+  height: 100%;
+}
+body{
+  font-size: 1.6rem;
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  justify-content: center;
+} 
+td {
+  width: 95px;
+  text-align: center;
+  border: solid blue 1px;
 }
 .name {
   margin-bottom: 2%;
-  font-size: 3rem;
+}
+tr {
+  border: solid blue 1px;
+}
+table {
+  padding: 15px 0px;
+  align-items: center;
+  min-width: 100%;
 }
 
 @keyframes App-logo-spin {
