@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-//import Coins from "./Coins.json"
 import Coin from './Coin'
+
 class Data extends Component {
   constructor(props) {
     super(props)

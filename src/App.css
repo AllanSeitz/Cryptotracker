@@ -1,11 +1,11 @@
 html {
   height: 100%;
 }
-body{
+body {
   font-size: 1.6rem;
   display: flex;
   justify-content: center;
-} 
+}
 td {
   width: 95px;
   text-align: center;
@@ -22,8 +22,7 @@ table {
   align-items: center;
   min-width: 100%;
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+section {
+  font-size: 30px;
+  border: dashed red 2px;
 }
